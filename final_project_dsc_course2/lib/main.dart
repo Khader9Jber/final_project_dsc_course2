@@ -132,16 +132,16 @@ void main() {
         break;
       case 9:
         {
-          print("Enter Trip ID:");
-          String tripId = stdin.readLineSync();
-          viewPassengersIn(tripId: tripId);
+          print("Enter Passenger ID:");
+          String passId = stdin.readLineSync();
+          viewTripsFOR(passId: passId);
         }
         break;
       case 10:
         {
-          print("Enter Passenger ID:");
-          String passId = stdin.readLineSync();
-          viewTripsFOR(passId: passId);
+          print("Enter Trip ID:");
+          String tripId = stdin.readLineSync();
+          viewPassengersIn(tripId: tripId);
         }
         break;
       case 11:
